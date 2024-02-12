@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+// Vendors
+@use "../../../node_modules/normalize.css/normalize.css";
+
+// Base
+@use "base/default";
+@use "base/general";
+
+// Components
+// @use "";
+
+// Layouts
+@use "layouts/header";
+
+// Pages
+@use "pages/index";
+
+#info {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+}
