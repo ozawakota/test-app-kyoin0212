@@ -3,8 +3,8 @@ import Firebase from "./utils/Firebase";
 
 class Main {
   constructor() {
-    const ex = new Firebase();
-    ex.console(" web starter kit");
+    new Firebase();
+
 
   }
 }
